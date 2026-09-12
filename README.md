@@ -1,46 +1,4 @@
 # EVALUATION-OF-RADAR-RANGE-USING-SCILAB---T1---M4---ODD
-# Experiment 10: Evaluation of Radar Range using Python
-
-## Aim
-To calculate the maximum range of a radar system using the Radar Range Equation and verify the results through Python programming.
-
-## Apparatus Required
-1. **Software:** Python 3.x (with `math` module)
-2. **Hardware:** Personal Computer
-
----
-
-## Theory
-The Radar Range Equation is a fundamental formula used in radar system design to determine the maximum range at which a radar can detect a target. 
-
-### Mathematical Representation
-The maximum radar range $R_{\max}$ is given by:
-
-$$R_{\max} = \left( \frac{P_t G_t G_r \lambda^2 \sigma}{(4\pi)^3 P_{\min}} \right)^{\frac{1}{4}}$$
-
-Where:
-* $R_{\max}$ : Maximum detectable range of the radar (m)
-* $P_t$ : Transmitted power (W)
-* $G_t$ : Gain of the transmitting antenna
-* $G_r$ : Gain of the receiving antenna
-* $\lambda$ : Wavelength of the radar signal (m), calculated as $\lambda = \frac{c}{f}$ (where $c = 3 \times 10^8 \text{ m/s}$)
-* $\sigma$ : Radar cross-section of the target ($\text{m}^2$)
-* $P_{\min}$ : Minimum detectable signal power of the receiver (W)
-
----
-
-## Procedure / Algorithm
-1. **Set Up the Python Environment:** Install Python or run inside any Python IDE/Jupyter Notebook.
-2. **Import Necessary Libraries:** Import Python's built-in `math` module for standard mathematical operations.
-3. **Define Radar Range Function:** Write a dedicated function to evaluate $R_{\max}$ using the equation.
-4. **Input Parameters:** Define parameters such as transmitted power ($P_t$), antenna gains ($G_t, G_r$), signal frequency ($f$), radar cross section ($\sigma$), and minimum detectable power ($P_{\min}$).
-5. **Calculate Maximum Range:** Convert frequency to wavelength ($\lambda = c / f$) and evaluate the expression using power operations.
-6. **Execute and Display Results:** Run the script to calculate and output the maximum radar detection range in meters and kilometers.
-
----
-
-# Experiment 10: Evaluation of Radar Range using Scilab
-
 ## Aim
 To calculate the maximum range of a radar system using the Radar Range Equation and verify the results through Scilab programming.
 
